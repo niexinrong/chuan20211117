@@ -8,5 +8,8 @@ WORKDIR /code
 RUN pip install -i https://pypi.douban.com/simple django
 RUN pip3 install PyMySQL
 RUN pip3 install mysqlclient
+#验证码
+RUN pip install django-simple-captcha
+RUN pip install Pillow
 #RUN pip3 install -r requirements.txt
 ADD . /code/

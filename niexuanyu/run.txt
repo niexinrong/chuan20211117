@@ -1,0 +1,6 @@
+第一步：-------------------------
+docker-compose build
+第二步：-------------------------
+docker-compose up
+test:
+http://localhost:8000/test/
