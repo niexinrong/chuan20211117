@@ -1,0 +1,12 @@
+[
+    {
+        "req":"^https?:\\/\\/.*test.com",
+        "res":"http://qunar.com",
+        "checked":false
+    },
+    {
+        "req":".*hanan.com",
+        "res":"http://cssha.com",
+        "checked":true
+    }
+]
