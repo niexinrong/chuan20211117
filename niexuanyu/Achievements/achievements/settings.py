@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'XXX',
+    'niexy',
     'captcha',
 ]
 # django_simple_captcha 验证码配置其他配置项查看文档

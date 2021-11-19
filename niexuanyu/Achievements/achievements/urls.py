@@ -19,6 +19,7 @@ from django.urls import include
 from django.conf.urls import url
 
 from . import views, testdb
+from niexy import views as niexyviews
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -29,5 +30,8 @@ urlpatterns = [
     path('captcha/', include('captcha.urls')),  # 图片验证码 路由
     path('refresh_captcha/', views.refresh_captcha),  # 刷新验证码，ajax
     path('test/', views.IndexView.as_view()),
+
+    # niexy app
+    path('nxytest/', niexyviews.nxytestdb),
 
 ]
